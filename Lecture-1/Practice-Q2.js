@@ -8,6 +8,6 @@ const profile = {
 
 }
 
-console.log(typeof profile);   // Output :- object
+console.log(typeof profile);                   // Output :-  object
 
-console.log(typeof profile["followers"])  // Output :-  number
+console.log(typeof profile["followers"])       // Output :-  number

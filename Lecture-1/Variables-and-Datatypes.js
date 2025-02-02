@@ -3,18 +3,27 @@
 
 console.log("Apna College");   // To print something 
 
+
 // Variables  :- 
 
 let a = 67 // a = 67
-console.log(a);
+
+console.log(a);        // Output :-  67 
+
 
 a  = "string"
-console.log(a);
+
+console.log(a);        // Output :- string
+
 
 price = 150.8
-console.log(price);
 
-// let 8harry = 7 // Not allowed this will throw an error 
+console.log(price);    // Output :- 150.8
+
+
+
+// let 8harry = 7    // Not allowed this will throw an error 
+
 
 
 /*
@@ -114,12 +123,15 @@ if (isAdult) {
 
 >> 6) BigInt  :-  Represents integers with arbitrary precision.
 
+
 a) Syntax :- let bigInt = 1234567890123456789012345678901234567890n;
 
 
 b) Usage :-  Used for large integers beyond the safe integer limit of the Number type.
 
+
 c) How it Works :- BigInt can safely represent and manipulate large integers.
+
 
 d) Example :-  
 
@@ -131,7 +143,6 @@ console.log(bigIntSum); // 1234567890123456789012345678901234567891n
 >> 7) Undefined  :-  Indicates that a variable has been declared but has not been assigned a value.
 
 a) Syntax :- let notAssigned;
-
 
 b) Usage :-  Automatically assigned to variables that have just been declared.
 
@@ -145,21 +156,58 @@ console.log(x); // "undefined"
 */
 
 
+
 // Data Types - Two  Types :- 
 
 // 1) Primitive Datatypes :-  Primitive data types are the most basic types of data. They are immutable, meaning their values cannot be changed.
 
+
 // let a = null;
+
 let b = 345;
+
 let c = true;         // can also be false 
+
 let d = BigInt("567")  + BigInt("5")
+
 let e = "Harry"
+
 let f = Symbol("I am a nice symbol")
+
 let g = undefined     // or let g  also works 
+
 console.log(a,"\n",b ,"\n",c ,"\n",d ,"\n",e,"\n",f,"\n",g)
 
+
 // To find type of data stored ? 
-console.log(typeof d)
+
+console.log(typeof d)        
+
+
+
+/*
+
+Output :- 
+
+a :-  null 
+
+b  :-  345 
+
+c :-  true 
+
+d :-  572n 
+
+e :-  Harry 
+
+f :-  Symbol(I am a nice symbol) 
+
+g :-  undefined
+
+Type of d :-  bigint
+
+*/
+
+
 
 
 // 2) Non - Primitive Datatypes :-  Non-primitive data types are more complex types of data. They can store multiple values and are mutable.
@@ -169,6 +217,7 @@ console.log(typeof d)
 
 
 // KeyValue pairs :- "Harry" , "Subh " etc ... 
+
 
 // Example :- 
 
@@ -180,41 +229,61 @@ const student = {
     isPass : true
 }
 
-console.log(student["name"])    // Output :- Rahul Kumar
-console.log(student["age"])     // Output :- 20
-console.log(student.age)        // Output :- 20
+ 
+console.log(student["name"])         // Output :- Rahul Kumar
+
+console.log(student["age"])          // Output :- 20
+
+console.log(student.age)             // Output :- 20
+
 
 // To update age ? Here const obj can be updated so key can also be updated 
 student["age"] = student["age"] + 1;
+
 console.log(student)
 
 
 // b) Array :-  An ordered collection of elements.
 
+
 // Syntax :- 
 let numbers = [1, 2, 3, 4, 5];
 
+
 // Example :- 
 let fruits = ["Apple", "Banana", "Cherry"];
-console.log(fruits[0]); // Output: Apple
+
+console.log(fruits[0]);                // Output :- Apple
 
 
-// b) Array :-  A block of code designed to perform a particular task.
+
+// c) Functions :-  A block of code designed to perform a particular task.
+
 
 // Syntax :- 
 function greet(name) {
+
   return `Hello, ${name}!`;
+
 }
+
+
+greet("Madhav P")                     // Output :-   'Hello, Madhav P!'
+
 
 // Example :- 
 function sum(a, b) {
+
     return a + b;
+
 }
-console.log(sum(5, 3)); // Output: 8
+
+console.log(sum(5, 3));              // Output :-  8
+
+
 
 
 // Let or Var or Const 
-
 
 /*  
 
@@ -247,11 +316,13 @@ So in modern days we use  let and const
 
 {
   let a = 5;
-//   let a = 10; // SyntaxError: Identifier 'a' has already been declared
-  console.log(a);
+  //   let a = 10; // SyntaxError: Identifier 'a' has already been declared
+  console.log(a);             // Output :-  5
 }
 
 {
     let a = 10;
-    console.log(a);
+
+    console.log(a);          // Output :- 10
+
 }

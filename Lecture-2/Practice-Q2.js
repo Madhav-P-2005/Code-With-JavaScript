@@ -28,3 +28,17 @@ else if(marks>=50 && marks<=59){
 else {
     console.log("F")
 }
+
+
+
+/*
+
+Output :- 
+
+
+Enter your marks :-   45
+
+F
+
+
+*/

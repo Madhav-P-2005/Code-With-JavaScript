@@ -22,8 +22,10 @@ Types of Conditional Statements ?
 // alert("hello")
 
 let a = prompt("Hey whats you age ? ");
-a = Number.parseInt(a); // Converting the string to a Number
-// console.log(typeof a)
+
+a = Number.parseInt(a);                 // Converting the string to a Number
+
+console.log(typeof a)             // Output :-    number
 
 
 
@@ -40,9 +42,19 @@ if (condition) {
 // Example :-
 
 let age = 18;
+
 if (age >= 18) {
-    console.log("You are an adult.");
+
+    console.log("You are an adult.");         
+
 }
+
+
+/*
+
+Output :-    You are an adult.
+
+*/
 
 
 
@@ -62,11 +74,23 @@ if (condition) {
 // Example :- 
 
 let Age = 16;
+
 if (Age >= 18) {
+
   console.log("You are an adult.");
+
 } else {
+
   console.log("You are not an adult.");
+
 }
+
+
+/*
+
+Output :- You are not an adult
+
+*/
 
 
 
@@ -89,15 +113,34 @@ if (Age >= 18) {
 // Example :-  
 
 if (a < 0) {
+
   alert("This is an invalid age ");
+
 } else if (a < 9) {
+
   alert("You are a kid and you cannot even think of driving ");
+
 } else if (a < 18 && a >= 9) {
+
   alert("You are a kid and you can think of driving after 18");
+
 } else {
+
   alert("You can now drive as you are above 18");
+
 }
+
 console.log("Done");
+
+
+
+/*
+
+Output :-   You can now drive as you are above 18
+
+Done
+
+*/
 
 
 
@@ -122,31 +165,64 @@ switch (expression) {
 // Example :- 
 
 let day = 3;
+
 switch (day) {
+
   case 1:
+
     console.log("Monday");
+
     break;
+
   case 2:
+
     console.log("Tuesday");
+
     break;
+
   case 3:
+
     console.log("Wednesday");
+
     break;
+
   case 4:
+
     console.log("Thursday");
+
     break;
+
   case 5:
+
     console.log("Friday");
+
     break;
+
   case 6:
+
     console.log("Saturday");
+
     break;
+
   case 7:
+
     console.log("Sunday");
+
     break;
+
   default:
+
     console.log("Invalid day");
+    
 }
+
+
+/*
+
+Output :-   Wednesday
+
+*/
+
 
 
 
@@ -172,16 +248,20 @@ ExpressionIfFalse: This expression is executed if the condition is false.
 // Example 1 :-   Basic Usage :- 
 
 let age1 = 18;
+
 let canVote = (age1>=18) ? "Yes" : "No";
-console.log(canVote);   // Output : "Yes"
+
+console.log(canVote);           // Output :-  "Yes"
 
 
 
 // Example 2 :-  Assigning Variable Based on Condition :- 
 
 let speed = 90;
+
 let speedCheck = (speed > 80) ? "Over Speeding" : "Within Limit";
-console.log(speedCheck);  // Output :- "Over Speeding"
+
+console.log(speedCheck);        // Output :- "Over Speeding"
 
 
 
@@ -189,14 +269,19 @@ console.log(speedCheck);  // Output :- "Over Speeding"
 
 
 let marks = 85;
+
 let grade = (marks>=90) ? "A":
+
             (marks>=80) ? "B":
+
             (marks>=70) ? "C": "D";
-console.log(grade);   // Output : "B"
+
+console.log(grade);            // Output :-  "B"
 
 
 
 // Example 4 :-  Inline Ternary Operator :-
 
 let isMember = true;
-console.log(isMember ? "Welcome , member! " : "Sign up to become a memeber. "); // Output :-  "Welcome , member !"
+
+console.log(isMember ? "Welcome , member! " : "Sign up to become a memeber. ");     // Output :-  "Welcome , member !"

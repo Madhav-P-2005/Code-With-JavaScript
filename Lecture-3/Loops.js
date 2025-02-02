@@ -23,6 +23,18 @@ for (let i = 0; i < 5; i++) {
 console.log()
 
 
+/*
+
+Output :-   0 
+            1
+            2	
+            3
+            4
+
+*/
+
+
+
 // 2) while Loop  :-  Executes a block of code as long as a specified condition is true.
 
 // Syntax :- 
@@ -37,7 +49,7 @@ console.log()
 
 let i = 0;
 while (i < 5) {
-  console.log(i); // Output: 0 1 2 3 4
+  console.log(i);        // Output :-  0 1 2 3 4
   i++;
 }
 console.log();
@@ -57,7 +69,7 @@ console.log();
 
 i = 0;
 do {
-  console.log(i); // Output: 0 1 2 3 4
+  console.log(i);       // Output :-  0 1 2 3 4
   i++;
 } while (i < 5);
 
@@ -72,6 +84,13 @@ for(i=0;i<=n;i++){
 }
 
 console.log("Sum of 5 numbers is :- ",sum);
+
+/*
+
+Output :-   Sum of 5 numbers is :- 15
+
+*/
+
 
 
 
@@ -97,6 +116,19 @@ console.log("Result is :- ",result)
 console.log("Size is :- ",size)
 
 
+
+/*
+
+Output :- 
+
+Result is :-     M a d h a v   P 
+                 Size is :-   8
+
+*/
+
+
+
+
 // 5) for - in Loop :-   Iterates over the properties of an object.
 
 
@@ -119,6 +151,23 @@ for(let key in student){
 }
 
 
+/*
+
+Output :- 
+ 
+ Key = name   Value = Rahul Kumar
+
+ Key = age    Value = 20
+
+ Key = cgpa   Value = 7.5
+
+ Key =  isPass  Value = true
+
+*/
+
+
+
+
 // Q1) Print all even numbers from 0 to 100 .
 let flag=false
 for(i=0;i<=100;i++){
@@ -127,6 +176,65 @@ for(i=0;i<=100;i++){
         
     }
 }
+
+
+/*
+
+Output :- 
+
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+22
+24
+26
+28
+30
+32
+34
+36
+38
+40
+42
+44
+46
+48
+50
+52
+54
+56
+58
+60
+62
+64
+66
+68
+70
+72
+74
+76
+78
+80
+82
+84
+86
+88
+90
+92
+94
+96
+98
+100
+
+*/
 
 
 // Q2) Create a game where you start with any random game number . Ask the user to keep guessing the game number until the user enters correct value ?
@@ -192,6 +300,7 @@ Step 3 :-  Shift by min to get the final result within the desired range :-
 */
 
 let computer = getRandomInteger(0, 100);
+console.log(computer)
 console.log("Welcome to the number Guessing Game :-  ")
 
 count = 0
@@ -217,3 +326,18 @@ while(true)
         console.log("Invalid Input")
     }
 }
+
+
+
+
+/*
+
+Output :- 
+
+55
+
+ Welcome to the number Guessing Game :-  
+
+ 55 is equal to the  actual number :- 55  . Congrats Guys !! 🥳
+
+*/

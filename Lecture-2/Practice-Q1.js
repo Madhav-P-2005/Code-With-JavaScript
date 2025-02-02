@@ -14,3 +14,14 @@ else{
 }
 
 
+
+
+/*
+
+Output :- 
+
+Enter a Number :- 25
+
+Is a Multiple of  5
+
+*/
