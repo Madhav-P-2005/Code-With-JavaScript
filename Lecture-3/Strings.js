@@ -231,8 +231,10 @@ console.log(Text.length); // Output: 5
 
 */
 
+
 // Create str :- 
 let str = "Shradha Khapra Mam"
+
 let str2 = "Madhav P"
 
 
@@ -244,8 +246,9 @@ console.log(str2.length)   // Output :-  8
 
 // Indexing :- 
 
-console.log(str2[0])   // Output :- M
-console.log(str2[10])  // Output :- undefined
+console.log(str2[0])         // Output :-   M
+
+console.log(str2[10])       // Output :-  undefined
 
 
 
@@ -257,10 +260,13 @@ let obj ={
 
 
 let output = `The cost of ${obj.item} is ${obj.price} rupees `;
-console.log("The Template Literal Example :- ",output)  // Output :- The Template Literal Example :-  The cost of pen is 10 rupees
+
+console.log("The Template Literal Example :- ",output)        // Output :- The Template Literal Example :-  The cost of pen is 10 rupees
 
 
-console.log("The cost of ",obj.item , "is" , obj.price) // Output :- The cost of pen is 10
+console.log("The cost of ",obj.item , "is" , obj.price)       // Output :- The cost of pen is 10
+
+
 
 
 // >> This Phenomena is called " String Interpolation ". 
@@ -268,20 +274,27 @@ console.log("The cost of ",obj.item , "is" , obj.price) // Output :- The cost of
 // Template Literals 
 
 let specialString = `This is a template Literal`;
-console.log(specialString);  // output :- This is a template Literal
+
+console.log(specialString);               // Output :- This is a template Literal
+
 
 let specialStringNumbers = `This is a template Literal :-  ${1 + 2 + 3}`
-console.log(specialStringNumbers)   // Output :-  This is a template Literal :-  6
+
+console.log(specialStringNumbers)         // Output :-  This is a template Literal :-  6
 
 
 // Escape Characters :-  Special characters in strings can be escaped using a backslash (\).
 let str1 = "Apna\tcollege";   
-console.log(str1);   // Output :- Apna    college
 
-console.log(str1.length);   // Output :- 12
+console.log(str1);                        // Output :- Apna    college
+
+console.log(str1.length);                 // Output :- 12
 
 let escapedStr = "He said, \"Hello!\"";
-console.log(escapedStr); // Output: He said, "Hello!"
+
+console.log(escapedStr);                  // Output :-  He said, "Hello!"
+
+
 
 
 
@@ -291,44 +304,89 @@ let User = "  Why do we Fall ?   ";
 
 // Here Methods will not change the Value of the  Original String . 
 
-console.log("Convert to upperCase()    :-  ",User.toUpperCase());   // Output :- Convert to upperCase :-   WHY DO WE FALL ?
+console.log("Convert to upperCase()    :-  ",User.toUpperCase());        
 
 
-console.log("Convert to lowerCase()   :-  ",User.toLowerCase());  // Output :- Convert to upperCase :-   why do we fall ?
+console.log("Convert to lowerCase()   :-  ",User.toLowerCase());         
 
 
-console.log("To Trim()  :-  ",User.trim());   // Output :- Convert to upperCase :-   WHY DO WE FALL ?
+console.log("To Trim()  :-  ",User.trim());  
 
 
 let Slice = "abcdefg"
 
-console.log("To Slice()  a String  :-  ",Slice.slice(0 , 4))  // Output :- To Slice a String  :-   abcdefg
+console.log("To Slice()  a String  :-  ",Slice.slice(0 , 4)) 
 
+
+/*
+
+Output :- 
+
+Convert to upperCase()    :-     WHY DO WE FALL ?   
+
+Convert to lowerCase()   :-     why do we fall ?   
+
+To Trim()  :-   Why do we Fall ?
+
+To Slice()  a String  :-   abcd
+
+*/
+
+
+
+
+
+let User2 = "  Why do we Fall ?   ";
 
 let string1 = "Madhav"
+
 let string2 = "P"
+
 let result = string1.concat(string2);
-console.log("To Concat() / join  :-    ",result)   // Output :- To Concat / join  :-   MadhavP
+
+console.log("To Concat() / join  :-    ",result)         // Output :- To Concat / join  :-   MadhavP
 
 console.log(
-  "To Replace()  :-   ",
-  User.replace("  Why do we Fall ?   ", "The Dark Knight ")
-);   // Output :- To Replace :-    The Dark Knight
+
+  "To Replace()  :-   ",   User2.replace("  Why do we Fall ?   ", "The Dark Knight ")
+
+);            // Output :- To Replace :-    The Dark Knight
 
 
-let  User2 = "Why Why  , Do we Fall ?"
+
+let  User3 = "Why Why  , Do we Fall ?"
+
 console.log(
-  "To ReplaceAll()  :-   ",
-  User2.replaceAll("Why", "Bruce")
-);   // Output :-  To Replace :-    Bruce Bruce  , Do we Fall ?
+
+  "To ReplaceAll()  :-   ",   User3.replaceAll("Why", "Bruce")
+  
+);           // Output :-  To Replace :-    Bruce Bruce  , Do we Fall ?
 
 
-console.log("To find CharAt() :-   ",User.charAt(4))   // Output :- Convert to upperCase :-   WHY DO WE FALL ?
 
+console.log("To find CharAt() :-   ",User3.charAt(4))       
 
 User[0] = "S"
-console.log("String Manipulation :-  ",User)  // Output :-  Cannot Achieve because Original String will not Change  so Use Replace() method only .
 
-// console.log("Convert to upperCase :-  ",User.())   // Output :- Convert to upperCase :-   WHY DO WE FALL ?
+console.log("String Manipulation :-  ",User3)              // Output :-  Cannot Achieve because Original String will not Change  so Use Replace() method only .
+
+console.log("Convert to upperCase :-  ",User3.toUpperCase())       
 
 
+
+/*
+
+Output :- 
+
+To Concat()/Join :  MadhavP
+
+To Replace() :  The Dark Knight
+
+To ReplaceAll() :  Bruce Bruce, Do we Fall?
+
+To find CharAt() :  W
+
+Convert to UpperCase :  WHY WHY, DO WE FALL?
+
+
+*/

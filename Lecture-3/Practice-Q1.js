@@ -13,5 +13,18 @@ let username = prompt("Enter your Full Name  :-  ")
 let new_username = "@" + username;
 
 
-console.log(`Generated Your Username :- ${new_username}${username.length}`)
+console.log(`Generated Your Username :- ${new_username} \t ${username.length}`)
 
+
+
+/*
+
+Output :- 
+
+
+Enter your Full Name :-  Madhav P 
+
+Generated Your Username :- @Madhav 	 6
+
+
+*/
