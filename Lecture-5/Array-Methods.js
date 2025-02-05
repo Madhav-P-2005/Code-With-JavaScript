@@ -2,7 +2,6 @@
 
 A Map object in JavaScript is a collection of elements where each element is stored as a key-value pair. Unlike objects, Map allows keys of any type, including functions, objects, and primitive types.
 
-
 */
 
 
@@ -271,4 +270,3 @@ const Ans2 = array2.reduce((previousValue2 , curr2 ) =>{
 })
 
 console.log(Ans2)                // Output :- 6
- 

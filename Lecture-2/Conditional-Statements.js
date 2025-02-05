@@ -5,7 +5,6 @@ Conditional Statements :-  Conditional statements, also known as control flow st
 */
 
 
-
 /*
 
 Types of Conditional Statements ?
@@ -14,7 +13,6 @@ Types of Conditional Statements ?
 2) if - else Statement 
 3) if - else - if - else statement 
 4) Switch Statement 
-
 
 */
 
@@ -133,7 +131,6 @@ if (a < 0) {
 console.log("Done");
 
 
-
 /*
 
 Output :-   You can now drive as you are above 18
@@ -141,6 +138,7 @@ Output :-   You can now drive as you are above 18
 Done
 
 */
+
 
 
 
@@ -230,7 +228,6 @@ Output :-   Wednesday
 
 
 // Syntax :-  condition ? expressionIfTrue : expressionIfFalse;
-
 
 
 /* 

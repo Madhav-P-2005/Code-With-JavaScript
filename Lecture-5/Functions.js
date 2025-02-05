@@ -174,7 +174,6 @@ greet()
 
 // 3) Arrow Functions :- Introduced in ES6, provide a shorter syntax for writing function expressions. They also come with the benefit of having a lexical this binding. This means that this inside an arrow function refers to the value of this in the surrounding lexical context, making them particularly useful in cases where you want to maintain the this value from the surrounding scope.
 
-
 /*
 
 Syntax :- 
@@ -184,6 +183,7 @@ Syntax :-
     }
 
 */
+
 
 
 
@@ -225,6 +225,8 @@ person.sayName();                    // Output :-   Alice after 1 second
 
 
 
+
+
 // 3) No arguments object :- Arrow functions do not have their own arguments object, but you can use rest parameters (...args) if needed.
 
 
@@ -259,6 +261,7 @@ regularFunction(10, 20, 30);          // Output :- Arguments(3) [10, 20, 30, ca
 
 
 
+
 // 💡 Why does it work ?
 
 /*
@@ -266,9 +269,6 @@ regularFunction(10, 20, 30);          // Output :- Arguments(3) [10, 20, 30, ca
 >>> Regular functions automatically get the arguments object, even if no parameters are explicitly declared.
 
 */
-
-
-
 
 
 const arrowFunction = () => {
@@ -332,6 +332,7 @@ arrowMultiply(5,2)                   // Output :- 10
 
 
 
+
 // Without Arguments 
 const printHello = () =>{
 
@@ -375,8 +376,6 @@ The forEach loop is a powerful array method in JavaScript that allows you to ite
     c) array (optional) :-  The array forEach is being applied to.
 
   2) thisArg (optional): A value to use as this when executing the callback function.
-
-
 
 */
 
