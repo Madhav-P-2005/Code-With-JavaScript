@@ -8,7 +8,6 @@ Qs2. Write a code which can give grades to students according to their scores :-
 ,50-59  D 
 , 0-49, F
 
-
 */
 
 
@@ -39,6 +38,5 @@ Output :-
 Enter your marks :-   45
 
 F
-
 
 */

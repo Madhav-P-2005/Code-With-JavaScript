@@ -4,7 +4,6 @@
 
     eg: user name = “shradhakhapra” , username should be “@shradhakhapra13”
 
-
 */
 
 
@@ -25,6 +24,5 @@ Output :-
 Enter your Full Name :-  Madhav P 
 
 Generated Your Username :- @Madhav 	 6
-
 
 */

@@ -1,0 +1,30 @@
+body , h2 {
+    border: 0px;
+    margin: 0px;
+}
+
+.box:first-child {
+    background-color: orange;
+     font-size: larger;
+    font-weight: 700;
+    border:5px solid black;
+    margin-bottom:10px;
+}
+
+.box:nth-child(2) {
+    background-color: white;
+    color :black;
+    font-size: larger;
+    font-weight: 700;
+    border:5px solid black;
+     margin-bottom:10px;
+}
+
+
+.box:nth-child(3){
+    background-color: green;
+     font-size: larger;
+    font-weight: 700;
+    border:5px solid black;
+     margin-bottom:10px;
+}

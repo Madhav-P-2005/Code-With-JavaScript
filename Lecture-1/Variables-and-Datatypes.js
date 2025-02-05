@@ -157,6 +157,7 @@ console.log(x); // "undefined"
 
 
 
+
 // Data Types - Two  Types :- 
 
 // 1) Primitive Datatypes :-  Primitive data types are the most basic types of data. They are immutable, meaning their values cannot be changed.
@@ -182,7 +183,6 @@ console.log(a,"\n",b ,"\n",c ,"\n",d ,"\n",e,"\n",f,"\n",g)
 // To find type of data stored ? 
 
 console.log(typeof d)        
-
 
 
 /*
@@ -254,6 +254,7 @@ let numbers = [1, 2, 3, 4, 5];
 let fruits = ["Apple", "Banana", "Cherry"];
 
 console.log(fruits[0]);                // Output :- Apple
+
 
 
 

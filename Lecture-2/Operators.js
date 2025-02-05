@@ -4,7 +4,6 @@
 // Types of Operators in JavaScript ?
 
 
-
 // 1) Arithmetic Operators :- These operators are used to perform arithmetic calculations.
 
 // Example :- 
