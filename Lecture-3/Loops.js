@@ -10,9 +10,9 @@ Loops are used in JavaScript to repeatedly execute a block of code as long as a 
 // 1) for Loop :- Executes a block of code a specific number of times.
 
 // Syntax :- 
-// for (initialization; condition; increment) {
-//   // Code to be executed
-// }
+for (initialization; condition; increment) {
+  // Code to be executed
+}
 
 
 // Example :- 
@@ -38,10 +38,10 @@ Output :-   0
 // 2) while Loop  :-  Executes a block of code as long as a specified condition is true.
 
 // Syntax :- 
-// while (condition) {
+while (condition) {
     
-//   // Code to be executed
-// }
+  // Code to be executed
+}
 
 
 
@@ -59,9 +59,9 @@ console.log();
 
 // Syntax :- 
 
-// do {
-//   // Code to be executed
-// } while (condition);
+do {
+  // Code to be executed
+} while (condition);
 
 
 
@@ -98,9 +98,9 @@ Output :-   Sum of 5 numbers is :- 15
 
 
 // Syntax :- 
-// for (let value of iterable) {
-//     // Code to be executed
-// }
+for (let value of iterable) {
+    // Code to be executed
+}
 
 
 // Example :-
@@ -133,9 +133,9 @@ Result is :-     M a d h a v   P
 
 
 // Syntax :- 
-// for (let key in object) {
-//     // Code to be executed
-// }
+for (let key in object) {
+    // Code to be executed
+}
 
 
 // Example :- 

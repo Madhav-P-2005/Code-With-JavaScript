@@ -2,7 +2,6 @@
 
 Q4)  We are given array of marks of students. Filter our of the marks of students that scored 90+ ?
 
-
 */
 
 
