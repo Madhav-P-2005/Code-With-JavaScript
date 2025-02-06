@@ -6,17 +6,16 @@
 
 /*  
 
-  Property                  |    Description  
-  -----------------------------------------------------  
-  getAttribute(attr)       -   Gets the
-                               value of an attribute.  
+Attribute Manipulation Properties:
 
-  setAttribute(attr, value) -  Sets or 
-                               updates an attribute.  
+1) getAttribute(attr) :-  Gets the value of an attribute.  
 
-  removeAttribute(attr)    -   Removes 
-                               an attribute from an element.  
-  
+
+2) setAttribute(attr, value) :- Sets or updates an attribute.  
+
+
+3) removeAttribute(attr) :-   Removes an attribute from an element.  
+
 */
 
 
@@ -34,26 +33,26 @@ link.removeAttribute("target"); // Removes the 'target' attribute
 // 3) Style Manipulation Properties :-    Used to change CSS styles dynamically.
 
 
-/*  
+/* 
 
-  Property              |  Description  
-  ---------------------------------------------------  
-  a) style.property        -  Modifies an
-                           inline CSS property.  
+Style Manipulation Properties :-
 
-  b) className             -  Assigns a 
-                           class to the element.  
+a) style.property :- Modifies an inline CSS property.
 
-  c) classList.add()       -  Adds a new
-                           class.  
 
-  d) classList.remove()    -  Removes a 
-                           class.  
+b) className :-  Assigns a class to the element.
 
-  e) classList.toggle()    -  Toggles a 
-                           class on and off.  
+
+c) classList.add() :-  Adds a new class.
+
+
+d) classList.remove() :-  Removes a class.
+
+
+e) classList.toggle() :-   Toggles a class on and off.
 
 */
+
 
 
 //  a) style.property   :-  The style property in JavaScript allows you to modify CSS styles dynamically for an element. It updates inline styles, meaning changes are directly applied to the style="" attribute of the element.
@@ -172,27 +171,36 @@ para.classList.toggle("para");
 
 // 4) Element Manipulation Properties :- Used to create, append, or remove elements dynamically.
 
-/*
+/* 
 
-  Property/Method                         |   Description  
-  -------------------------------------------------------------  
-  a) createElement(tag)                   -   Creates a new HTML element.  
+Element Manipulation Properties & Methods :-
 
-  b) appendChild(element)                 -   Adds a child element inside a parent.
-  
-  c) node.append(el)                      -   Adds at the end of node (inside).
 
-  d) removeChild(element)                 -   Removes a child element from a parent.  
+1) createElement(tag) :-   Creates a new HTML element.
 
-  e) node.prepend(el)                     -   Adds at the start of node(inside). 
 
-  f) node.remove()                        -   Removes the node.
+2) appendChild(element) :-  Adds a child element inside a parent.
 
-  g) replaceChild(newElement, oldElement) -   Replaces an existing element with a new one.
 
-  h) node.before(el)                      -   Adds before the node(outside). 
+3) node.append(el) :-  Adds at the end of the node (inside).
 
-  i) node.after(el)                       -   Adds after the node(outside).
+
+4) removeChild(element) :-  Removes a child element from a parent.
+
+
+5) node.prepend(el) :-  Adds at the start of the node (inside).
+
+
+6) node.remove() :-  Removes the node.
+
+
+7) replaceChild(newElement, oldElement) :-  Replaces an existing element with a new one.
+
+
+8) node.before(el) :-  Adds before the node (outside).
+
+
+9) node.after(el) :-  Adds after the node (outside).
 
 */
 
@@ -323,6 +331,50 @@ Output :-
 */
 
  
+
+// 💡) appendChild(element) vs. node.append() ? 
+
+/* 
+
+Feature :- 
+
+1) What it does :-
+
+   - appendChild(element) :-  Adds a single node (element) inside a parent.
+
+   - node.append() :-  Adds multiple nodes or text.
+
+
+2) Return Value :-
+
+   - appendChild(element) :-  Returns the appended node.
+
+   - node.append() :-  No return value (undefined).
+
+
+3) Text Support :- 
+
+   - appendChild(element) :-  ❌ Can't append text directly.
+
+   - node.append() :-  ✅ Can append text directly.
+
+
+4) Multiple Appends :-
+
+   - appendChild(element) :-  ❌ Only one node at a time.
+
+   - node.append() :-  ✅ Allows multiple nodes/text.
+
+
+5) Browser Support :-
+
+   - appendChild(element) :-  ✅ Supported in all browsers.
+
+   - node.append() :-  ❌ Not supported in IE.
+
+*/
+
+
 
 
 // d) removeChild(element)  :-  Removes a child element from a parent.
@@ -500,10 +552,11 @@ Output :-
 
 
 
+
+
 // Example 2 :- 
 
 newheading.remove();
-
 
 /* 
 
@@ -527,6 +580,59 @@ Output :-
 
 */
 
+
+
+
+// 💡) removeChild(element) vs. node.remove()  ? 
+
+/* 
+
+Feature :- 
+
+1) What it does :-
+
+   - removeChild(element) :-  Removes a child element from the parent.
+
+   - node.remove() :-  Removes itself from the DOM.
+
+2) Requires Parent? :-
+
+   - removeChild(element) :-  ✅ Yes, must call on parent.
+
+   - node.remove() :-  ❌ No, can call directly on element.
+
+3) Return Value :-
+
+   - removeChild(element) :-  Returns the removed node.
+
+   - node.remove() :-  No return value (undefined).
+
+4) Browser Support :- 
+
+   - removeChild(element): ✅ Supported in all browsers.
+
+   - node.remove() :-  ❌ Not supported in IE.
+
+*/
+
+
+
+
+// 🔹 Usage & How It Works ?
+
+/*
+
+1️⃣ createElement(tag) →  Creates an element but does not add it to the DOM.
+
+2️⃣ appendChild(element) →  Adds an element inside a parent.
+
+3️⃣ node.append() →  Adds multiple elements or text inside a parent.
+
+4️⃣ removeChild(element) →  Removes a specific child from the parent.
+
+5️⃣ node.remove() →  Removes itself from the DOM without needing a parent reference
+
+*/
 
 
 

@@ -1,6 +1,6 @@
 /*
 
-Conditional Statements :-  Conditional statements, also known as control flow statements, are used to perform different actions based on different conditions. They allow you to execute certain pieces of code based on the evaluation of a condition.
+⭐) Conditional Statements :-  Conditional statements, also known as control flow statements, are used to perform different actions based on different conditions. They allow you to execute certain pieces of code based on the evaluation of a condition.
 
 */
 
@@ -232,11 +232,11 @@ Output :-   Wednesday
 
 /* 
 
-Condition: This is the condition to be evaluated.
+Condition :-  This is the condition to be evaluated.
 
-ExpressionIfTrue: This expression is executed if the condition is true.
+ExpressionIfTrue :-  This expression is executed if the condition is true.
 
-ExpressionIfFalse: This expression is executed if the condition is false.
+ExpressionIfFalse :-  This expression is executed if the condition is false.
 
 */
 

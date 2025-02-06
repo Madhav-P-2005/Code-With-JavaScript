@@ -87,10 +87,10 @@ By maintaining this repository, I aim to :-
 
 📚 Additional Resources
 
-📘 JavaScript Documentation
-🔗 Explore the MDN Web Docs for detailed JavaScript documentation.
+*[📘 JavaScript Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript)*
+- 🔗 Explore the MDN Web Docs for detailed JavaScript documentation.
 
-🖥️ VS Code Documentation
-🔧 Learn more about customizations & settings in Visual Studio Code.
+*[🖥️ VS Code Documentation](https://code.visualstudio.com/docs/editor/settings-sync)*
+- 🔧 Learn more about customizations & settings in Visual Studio Code.
 
 💡 Stay tuned for more updates as I continue my learning journey! 🚀🔥
