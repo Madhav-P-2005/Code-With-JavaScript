@@ -125,7 +125,9 @@ console.log(fruits1)               // Output :-  ["apple", "banana", "orange"]
 
 
 
+
 // 2) pop() :-  Removes the last element from an array and returns that element.
+
 
 // Example :- 
 
@@ -137,7 +139,9 @@ console.log(fruits2)                // Output :-  ["apple", "banana"]
 
 
 
+
 // 3) shift() :-  Removes the first element from an array and returns that element.
+
 
 // Example :- 
 
@@ -149,7 +153,9 @@ console.log(fruits3);               // Output :-  ["banana", "orange"]
 
 
 
+
 // 4) unshift() :-   Adds one or more elements to the beginning of an array and returns the new length.
+
 
 // Example :- 
 
@@ -164,7 +170,9 @@ console.log(fruits4);              // Output :-  ["apple", "banana", "orange"]
 
 // 5) splice() :-  Changes the contents of an array by removing, replacing, or adding elements.
 
+
 // Syntax :- splice(startIdx , delCount , newElement1....)
+
 
 // Example :- 
 
@@ -210,7 +218,9 @@ Elements are :-  (2) ['Grapes', 'apple']
 
 
 
+
 // 6) slice() :-   Returns a shallow copy of a portion of an array into a new array object
+
 
 // Example :- 
 
@@ -224,6 +234,7 @@ console.log("Slice :- ",newFruits);            //  Output:-  ["banana", "orange"
 
 
 // 7) concat() :-  Merges two or more arrays into a new array.
+
 
 // Example :- 
 
@@ -239,6 +250,7 @@ console.log(allFruits);                       // Output :-  ["apple", "banana", 
 
 
 // 8) indexOf() :-  Returns the first index at which a given element can be found in the array, or -1 if it is not present.
+
 
 // Example :- 
 
@@ -263,11 +275,13 @@ console.log(fruits9.includes("banana"));     // Output :-  true
 
 // 10) toString() :- This  method converts an array to a string, with array elements separated by commas.
 
+
 // Example :- 
 
 let fruits10 = ["apple", "banana", "orange"];
 
 console.log(fruits10.toString())            // Output :- apple,banana,orange
+
 
 
 
@@ -279,6 +293,7 @@ console.log(fruits10.toString())            // Output :- apple,banana,orange
 let fruits11 = ["banana", "apple", "orange"];
 
 console.log(fruits11.sort());               // Output :-   ["apple", "banana", "orange"]
+
 
 
 

@@ -1,0 +1,26 @@
+body{
+    margin:0px;
+    border : 0px;
+}
+
+#Button1{
+    background-color: orange ;
+    color : rgb(83, 20, 255);
+    border : 3px solid rgb(55, 5, 42);
+    height: 100px;
+    width: 120px;
+    margin-top:5px;
+    margin-left:5px;
+}
+
+
+#Button2{
+    background-color: rgb(25, 255, 21) ;
+    color : rgb(67, 10, 255);
+    border : 3px solid rgb(102, 8, 8);
+    height: 100px;
+    width: 120px;
+    margin-top:5px;
+    margin-left:5px;
+
+}

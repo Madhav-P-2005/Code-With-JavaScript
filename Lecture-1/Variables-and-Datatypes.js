@@ -298,7 +298,6 @@ So in modern days we use  let and const
 
 /*
 
-
   >> 1)  Var is globally scoped while let & const are block Scoped .
 
   >> 2) Var can be updated & re- declared within its scope .
