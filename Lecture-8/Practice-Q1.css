@@ -1,0 +1,15 @@
+#Button1{
+    background-color: darkmagenta;
+    color : white;
+    border : 4px solid blueviolet;
+    height: 100px;
+    width : 120px;
+    margin-top:5px;
+    margin-left:5px;
+
+}
+
+body{
+    margin:0px;
+    border:0px;
+}

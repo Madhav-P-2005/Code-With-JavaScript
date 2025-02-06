@@ -57,3 +57,35 @@ Output :-
 </body>
 
 */
+
+
+
+// Or 
+
+
+// Method :- 1 (Madam's)
+
+
+let newBtn = document.createElement("button");
+
+newBtn.innerText = "click me !";
+
+newBtn.style.color = "white";
+
+newBtn.style.backgroundColor="red";
+
+document.querySelector("body").prepend(newBtn);
+
+
+/*
+
+Output :- 
+
+<body><button style="color: white; background-color: red;">click me !</button>
+    <h1> Hi this is H1 Heading </h1>
+    <script src="Practice-Q1.js"></script>
+    <!-- Code injected by live-server -->
+    <script>...</script>
+</body>
+
+*/

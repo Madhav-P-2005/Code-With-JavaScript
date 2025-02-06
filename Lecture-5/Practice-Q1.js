@@ -71,7 +71,3 @@ Output :-  Enter any string :- Madhav
            Count of Vowels are :- 2
 
 */
-
-
-
-

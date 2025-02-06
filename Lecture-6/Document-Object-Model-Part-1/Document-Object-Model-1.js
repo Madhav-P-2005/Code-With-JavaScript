@@ -175,21 +175,13 @@ The DOM is used for :-
 
 /*
 
-1) Parsing the HTML
+1) Parsing the HTML :-  The browser reads the HTML and creates a DOM tree.
 
-            The browser reads the HTML and creates a DOM tree.
+2) JavaScript Accesses the DOM :- JS uses methods like document.getElementById() to select elements.
 
-2) JavaScript Accesses the DOM
+3) Modifications are Made :-  JS changes content, attributes, or styles of selected elements.
 
-            JS uses methods like document.getElementById() to select elements.
-
-3) Modifications are Made
-
-            JS changes content, attributes, or styles of selected elements.
-
-4) Browser Updates the Page
-
-            The UI reflects changes instantly without reloading the page.
+4) Browser Updates the Page :-  The UI reflects changes instantly without reloading the page.
 
 */
 
@@ -238,6 +230,7 @@ document.getElementById("demo").style.color = "blue";                 // Change 
 document.getElementById("demo").style.backgroundColor = "yellow";     // Change background
 
 
+
 // 5) Creating & Removing Elements :- 
 
 
@@ -248,6 +241,7 @@ newElement.innerText = "New Paragraph";
 document.body.appendChild(newElement);               // Append to body
 
 document.getElementById("demo").remove();            // Remove an element
+
 
 
 // 6)  Event Handling   :- 
@@ -265,15 +259,15 @@ document.getElementById("btn").addEventListener("click", function () {
 
 /*
 
-1)  Dynamic Content Updates – Updating text, images, or elements dynamically.
+1)  Dynamic Content Updates ;-  Updating text, images, or elements dynamically.
 
-2) Form Validation – Checking user input in real-time.
+2) Form Validation :–  Checking user input in real-time.
 
-3) Interactive UI – Showing/hiding elements, animations, toggling themes.
+3) Interactive UI :–  Showing/hiding elements, animations, toggling themes.
 
-4) Event Handling – Responding to user actions like clicks, key presses, etc.
+4) Event Handling :–  Responding to user actions like clicks, key presses, etc.
 
-5) Building Web Apps – Modern JavaScript frameworks (React, Vue, Angular) rely on DOM manipulation.
+5) Building Web Apps :–  Modern JavaScript frameworks (React, Vue, Angular) rely on DOM manipulation.
 
 */
 
@@ -283,7 +277,7 @@ document.getElementById("btn").addEventListener("click", function () {
 
 /*
 
-   DOM Manipulation Properties are built-in JavaScript properties that allow access and modification of HTML elements, their content, attributes, and styles in real time.
+   ⭐) DOM Manipulation Properties are built-in JavaScript properties that allow access and modification of HTML elements, their content, attributes, and styles in real time.
 
 */
 
@@ -385,17 +379,16 @@ Output :-    <div>...</div>  (First element inside <body>)
 
 /*  
 
-  Property      |   Description  
-  ----------------------------------------------  
-  innerText     -  Gets or sets the visible text inside an element.  
+Element Content Properties:
 
-  innerHTML     -  Gets or sets the HTML content inside an element.  
+1) innerText :-   Gets or sets the visible text inside an element.  
 
-  textContent   -  Similar to innerText but includes hidden text  
-                  (ignores display: none).
+2) innerHTML :-   Gets or sets the HTML content inside an element.  
 
-   tagName      -	 Returns the tag name of an element in uppercase.
-  
+3) textContent :-  Similar to innerText but includes hidden text (ignores display: none).  
+
+4) tagName :-   Returns the tag name of an element in uppercase.  
+
 */
 
 

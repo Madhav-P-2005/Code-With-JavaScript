@@ -21,7 +21,7 @@ alert("Hello, World!");
 
 
 
-// // ⚙️ How It Works ?
+// ⚙️ How It Works ?
 
 /*
 
@@ -46,25 +46,25 @@ console.log(window.myName);      // Output :-  "John"
 
 // 🔹 Window Object Properties & Methods 🔹
 
-// 1️⃣ window.document     - Accesses the DOM (Document Object Model)
+1️⃣ window.document     -  Accesses the DOM (Document Object Model)
 
-// 2️⃣ window.alert()      - Displays an alert box
+2️⃣ window.alert()      -  Displays an alert box
 
-// 3️⃣ window.confirm()    - Shows a confirmation box (OK/Cancel)
+3️⃣ window.confirm()    -  Shows a confirmation box (OK/Cancel)
 
-// 4️⃣ window.prompt()     - Opens an input prompt for user input
+4️⃣ window.prompt()     -  Opens an input prompt for user input
 
-// 5️⃣ window.location     - Provides info about the current URL
+5️⃣ window.location     -  Provides info about the current URL
 
-// 6️⃣ window.history      - Gives access to browser navigation history
+6️⃣ window.history      -  Gives access to browser navigation history
 
-// 7️⃣ window.setTimeout() - Executes a function after a delay
+7️⃣ window.setTimeout() -  Executes a function after a delay
 
-// 8️⃣ window.setInterval() - Repeats execution of a function at intervals
+8️⃣ window.setInterval() - Repeats execution of a function at intervals
 
-// 9️⃣ window.innerHeight  - Returns the viewport height
+9️⃣ window.innerHeight  -  Returns the viewport height
 
-// 🔟 window.innerWidth   - Returns the viewport width
+🔟 window.innerWidth   -  Returns the viewport width
 
 */
 
