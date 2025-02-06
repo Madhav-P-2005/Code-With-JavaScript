@@ -96,6 +96,4 @@ Output :-
 
 Sum of all the numbers in array is :-  15
 
-
-
 */
