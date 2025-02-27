@@ -1,0 +1,157 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Center the content */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4e4bf;
+    padding: 1rem;
+}
+
+/* Main container */
+.container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px; /* Increases size for better laptop view */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease-in-out;
+}
+
+/* Form styling */
+form {
+    margin: 2rem 0 1rem 0;
+}
+
+/* Input, select, and button styles */
+form select,
+button,
+input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+/* Input field styling */
+form input {
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+}
+
+/* Dropdown container */
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+/* Dropdown arrow icon */
+.dropdown i {
+    font-size: 1.2rem;
+    margin: 0 1rem;
+    color: #6a0dad;
+}
+
+/* Select container */
+.select-container {
+    display: flex;
+    width: 8rem; /* Increased width for better layout */
+    background-color: #e3e3e3;
+    border-radius: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+/* Select dropdown styling */
+.select-container select {
+    font-size: 1rem;
+    width: 100%;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/* Message styling */
+.msg {
+    margin: 2rem 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Button styles */
+form button {
+    height: 3rem;
+    background-color: #6a0dad;
+    font-size: 1.15rem;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+form button:hover {
+    background-color: #4a0072;
+}
+
+/*  🌐 Responsive Design Adjustments */
+
+/* Small devices (phones) */
+@media (max-width: 480px) {
+    .container {
+        width: 95%;
+        padding: 1.5rem;
+    }
+
+    .dropdown {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .dropdown i {
+        transform: rotate(90deg);
+    }
+
+    .select-container {
+        width: 7rem;
+    }
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 481px) and (max-width: 1024px) {
+    .container {
+        width: 80%;
+        max-width: 450px;
+    }
+
+    .select-container {
+        width: 8rem;
+    }
+}
+
+/* Large devices (desktops & laptops) */
+@media (min-width: 1025px) {
+    .container {
+        width: 35vw; /* Adjusts size dynamically */
+        max-width: 600px;
+    }
+
+    .select-container {
+        width: 9rem;
+    }
+
+    .dropdown i {
+        font-size: 1.5rem;
+    }
+}
